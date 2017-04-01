@@ -8,6 +8,7 @@ var computerGuess = alphabet[Math.floor(Math.random() * alphabet.length)];
 var userGuessArray = [];
      
 
+
   //Begin function with event of key release
   document.onkeyup = function(event) {
       
