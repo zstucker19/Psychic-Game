@@ -3,7 +3,6 @@ var alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m",
 var correct = 0;
 var incorrect = 0;
 var guesses = 10;
-var endGame = 0;
 var computerGuess = alphabet[Math.floor(Math.random() * alphabet.length)];  
 var userGuessArray = [];
      
